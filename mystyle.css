@@ -48,14 +48,14 @@ nav{
 }
 
 .nav-left{
-    color: rgb(87, 64, 150);
+    color: purple;
     text-align: center;
     text-decoration: none;
     font-size: 50px;
 }
 
 .nav-right{
-    color: rgb(87, 64, 150);
+    color: purple;
     padding-left: 42%;
     padding-top: 1%;
     display: table-cell;
