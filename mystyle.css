@@ -1,0 +1,370 @@
+html{
+    scroll-padding-top: 120px;
+    max-width: 100%;
+}
+
+body{
+    background-color: rgb(245, 241, 241);
+    font-family: Perpetua, Helvetica Neue, sans-serif;
+    text-align: center;
+    max-width: 100%;
+}
+.component{
+    border-radius: 5px;
+    padding: 5px 0px 5px 0px;
+    width: 100%;
+    align-items: center;
+    display: table;
+    max-width: 100%;
+}
+
+h2{
+    color: rgb(82, 68, 119);
+    font-size: 30px;
+}
+
+nav{
+    background-color: rgb(183, 202, 193);
+    color: purple;
+    position: fixed;
+    border-radius: 3px;
+    width: 100%;
+    height: max-content;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    left: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+}
+
+.header-img{
+    width: 60px;
+    border-radius: 5px;
+}
+
+.nav-left{
+    color: rgb(87, 64, 150);
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.nav-right{
+    color: rgb(87, 64, 150);
+    padding-left: 42%;
+    padding-top: 1%;
+    display: table-cell;
+}
+
+ul {
+    margin: 0;
+    overflow: hidden;
+    top: 0px;  
+    padding-left: 0;
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    display: inline-block;
+    padding: 15px;
+}
+
+.nav-left :hover{
+    color: rgb(255, 255, 255);
+}
+
+.nav-right a:hover{
+    background-color: rgb(170, 154, 145);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.headerimg{
+    width: 30px;
+    border-radius: 10px;
+}
+
+.body-of-page{
+    margin-top: 130px;
+}
+
+.email-form{
+    background-color: rgb(230, 176, 176);
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input[type=email]{
+    width: 45%;
+    height: 40px;
+    font-size: large;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: solid 5px rgb(153, 127, 112);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.submit{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(153, 127, 112);
+    border-radius: 5px;
+    border: solid 2px rgb(75, 55, 46);
+    color: white;
+    font-size: medium;
+}
+
+.submit:hover{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(230, 176, 176);
+    border-radius: 5px;
+    border: solid 3px rgb(82, 68, 119);
+    color: white;
+    font-size: medium;
+}
+
+.product-title{
+    margin-top: 100px;
+    border: solid 5px rgb(229, 193, 236);
+}
+
+.product-info{
+    margin-top: -20px;
+    display: flex;
+    text-align: center;
+}
+
+.product-info > div{
+    background-color: rgb(229, 193, 236);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.prod-box{
+    border-radius: 3px;
+    width: 100%;
+    height: 450px;
+}
+
+.prod-header{
+    background-color: rgb(229, 193, 236);
+    color: rgb(87, 64, 150);
+    width: 100%;
+    border-radius: 3px;
+}
+
+.bouquet-img{
+    width: 300px;
+    border-radius: 3px;
+    border: solid 5px rgb(183, 202, 193);
+}
+
+.single-flower{
+    width: 330px;
+    border: solid 5px rgb(183, 202, 193);
+    border-radius: 5px;
+}
+
+.custom-flower{
+    width: 280px;
+    border: solid 5px rgb(183, 202, 193);
+    border-radius: 5px;
+}
+
+.select{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(153, 127, 112);
+    color: rgb(254, 255, 255);
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.select:hover{
+    background-color:rgb(183, 154, 189);
+    color: white;
+    border: solid 3px rgb(87, 64, 150);
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+}
+
+.about-title{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border: solid 5px rgb(170, 154, 145);
+    border-radius: 3px;
+}
+
+.about-section{
+    padding-top: 3px;
+    padding-bottom: 30px;
+    /* background-color: rgb(233, 196, 228);*/
+    background-color: rgb(170, 154, 145);
+    border-radius: 5px;
+}
+
+.about-info{
+    font-size: 25px;
+    color: rgb(230, 230, 230);
+}
+
+.contact-title{
+    margin-top: 100px;
+    border: solid 5px rgb(183, 202, 193);
+    border-radius: 3px;
+}
+
+.contact-info{
+    background-color:  rgb(183, 202, 193);
+    color: rgb(77, 46, 156);
+    border-radius: 5px;
+    height: fit-content;
+    position: relative;
+    margin-top: -20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+@media screen and (max-width: 1505px){
+    nav{
+        background-color: rgb(183, 202, 193);
+        color: rgb(212, 190, 204);
+        position: fixed;
+        border-radius: 3px;
+        width: 100%;
+        height: max-content;
+        font-size: 25px;
+        font-weight: 500;
+        display: flex;
+        flex-wrap: wrap;
+        top: 0;
+        left: 0;
+        margin-bottom: 0;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
+    }
+    
+    .header-img{
+        width: 60px;
+        border-radius: 5px;
+    }
+    
+    .nav-left{
+        color: rgb(87, 64, 150);
+        text-align: center;
+        text-decoration: none;
+        font-size: 50px;
+    }
+    
+    .nav-right{
+        float: right;
+        color: rgb(87, 64, 150);       
+        padding-left: 40%;
+    }
+    
+}
+
+@media screen and (max-width:1456px){
+    .nav-left{
+        color: rgb(87, 64, 150);
+        text-align: center;
+        text-decoration: none;
+        font-size: 50px;
+    }
+
+    .nav-right{
+        float: right;
+        color: rgb(87, 64, 150);       
+        padding-left: 30%;
+    }
+}
+
+@media screen and (max-width:1345px){
+    .nav-left{
+        color: rgb(87, 64, 150);
+        text-align: center;
+        text-decoration: none;
+        font-size: 50px;
+    }
+
+    .nav-right{
+        float: right;
+        color: rgb(87, 64, 150);       
+        padding-right: 0%; 
+    }
+}
+
+@media screen and (max-width:1345px){
+    .nav-right{
+        float: right;
+        color: rgb(87, 64, 150);       
+        padding-left: 20%; 
+    }
+}
+
+@media screen and (max-width:1096px){
+    .nav-right{
+        float: right;
+        color: rgb(87, 64, 150);       
+        padding-left: 10%; 
+    }
+}
+
+@media screen and (max-width:976px){
+    .nav-right{
+        float: right;
+        color: rgb(87, 64, 150);       
+        padding-left: 0%; 
+    }
+}
+
+@media screen and (max-width: 880px){
+    .header-img{
+        width: 30px;
+        border-radius: 5px;
+    }    
+
+    .nav-left{
+        color: rgb(87, 64, 150);
+        align-content: center;
+        font-size: 40px;
+        padding: 0 0 0 10%;
+        margin-bottom: -20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nav-right{
+        float: right;
+        color: rgb(87, 64, 150);
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10%;
+        font-size: 20px;
+    }
+
+    .nav-right a:hover{
+        background-color: rgba(170, 154, 145, 0);
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+    }
+
+}
